@@ -1,0 +1,16 @@
+<div class="main-section">
+    <div>
+        <img src="{{image_url}}" alt="{{name}}" width="30px">
+    </div>
+    <div class="info">
+        <h1>{{name}}</h1>
+        <h4>{{tagline}}</h4>
+        <p>{{description}}</p>
+        <ul>
+            {{#each food_pairing}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ul>
+        <p><span>Brewer Tips: </span> {{brewers_tips}}</p>
+    </div>
+</div>
